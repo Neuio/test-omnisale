@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Test</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/favicon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/favicon.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/favicon.png">
+
+	<meta name="theme-color" content="#fff">
+	<meta name="msapplication-navbutton-color" content="#fff">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<main>
+		<form class="form" formaction="index.html">
+			<a href="/" class="form__link form__link--back">
+				<i class="material-icons">west</i>
+				<span>Вернуться</span>
+			</a>
+			<div class="form__icon">
+				<img src="./img/maxresdefault.png" alt="">
+			</div>
+			<input type="tel" placeholder="Введите номер" id="phone" class="form__input" required
+				pattern="[+][0-9]{1} [(] [0-9]{3} [ ) ] [0-9]{3}[-][0-9]{2}[-][0-9]{2}">
+			<input type="password" placeholder="Пароль" id="pass" class="form__input" required minlength="5">
+			<div class="wrapper">
+				<label class="form__input--switch">
+					<input type="checkbox">
+					<i></i>
+					<span>Запомнить</span>
+				</label>
+				<a href="/" class="form__link form__link--forget">Забыл пароль</a>
+			</div>
+			<button class="form__button">Войти</button>
+		</form>
+	</main>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
